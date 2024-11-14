@@ -45,12 +45,33 @@
   </nav>
 
 
-  <div class="container flex-center" style="height: 60vh;">
+  <div class="container flex-center" style="height: 80vh;">
     <form action="" class="form">
-      <label class="label">username*</label>
-      <input type="text" placeholder="username" id="uname" name="uname" <label for="password"
-        class="label">Password*</label>
-      <input type="password" placeholder="*******"="password" name="password">
+      <div class="margin">
+        <label class="label">username*</label>
+        <input type="text" placeholder="username" id="uname" name="uname" />
+      </div>
+      <div class="margin">
+        <label class="label">Contact No*</label>
+        <input type="text" placeholder="contact" id="contact" name="contact" />
+      </div>
+      <div class="margin">
+        <label class="label">Email*</label>
+        <input type="email" placeholder="email" id="email" name="email" />
+      </div>
+
+      <div class="margin">
+        <label for="password" class="label">Password*</label>
+        <input type="password" placeholder="*******"="password" name="password">
+      </div>
+      <div class="margin">
+        <label for="password" class="label">Confirm Password*</label>
+        <input type="password" placeholder="*******"="password" name="password">
+      </div>
+      <div class="checkboxContainer border">
+        <label for="checkbox ">Terms and condition</label>
+        <input type="checkbox">
+      </div>
       <button type="submit" class="button-10" style="margin-top: 10px; width:50%;">Submit</button>
     </form>
   </div>

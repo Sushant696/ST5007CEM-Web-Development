@@ -4,12 +4,14 @@ body {
   font-family: poppins, sans-serif;
 }
 
-
 .container {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
+.margin{
+  margin: 10px;
+}
 
 .flexcontainer {
   display: flex;
@@ -25,8 +27,6 @@ body {
   /*border: 2px solid red;*/
   height: 900px;
 }
-
-
 
 .large {
   width: 500px;
@@ -71,6 +71,24 @@ body {
   gap: 10px;
 }
 
+
+.table {
+  margin:20px 0px;
+  border: 1px solid #9997;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 12px; 
+  border-bottom: 1px solid #ddd; 
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+
 /* Utils */
 
 .border {
@@ -97,6 +115,11 @@ input {
 }
 
 
+.checkboxContainer{
+text-align: left;
+  
+}
+
 /* blue  button*/
 
 .button-10 {
@@ -114,7 +137,6 @@ input {
   box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
   user-select: none;
 }
-
 
 
 /* white bg button */
