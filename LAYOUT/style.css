@@ -19,36 +19,13 @@
   font-size: 24px;
 }
 
-.menuitem {
-  padding: 14px 48px;
-  border-radius: 10px;
-  text-align: center;
-  font-size: 19px;
-  outline: none;
-  cursor: pointer;
-  border: none;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background 0.3s ease, transform 0.2s ease;
+.navitem {
 }
-
-.menuitem:hover {
-  background: #2e2e2e;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
-  transform: translateY(-2px);
-}
-
-.menuitem:active {
-  background: #4a4a4a;
-  transform: translateY(1px);
-}
-
-
 
 .main-content {
 
   margin-left: 230px;
   margin-top: 0px;
-
 }
 
 
@@ -67,7 +44,6 @@
   box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
   user-select: none;
 }
-
 
 .margin {
   margin: 10px;
@@ -95,11 +71,28 @@
 .checkboxContainer {
   text-align: left;
   padding: 2px;
-
 }
-
 
 .white {
   background: #f8f8f8;
   border: 1px solid black;
 }
+
+.table {
+  margin:20px 0px;
+  border: 1px solid #9997;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  padding: 12px; 
+  border: 1px solid #ddd; 
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+
+
