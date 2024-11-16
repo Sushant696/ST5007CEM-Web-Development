@@ -86,13 +86,16 @@
 }
 
 th, td {
-  padding: 12px; 
+  padding: 20px 30px; 
   border: 1px solid #ddd; 
   text-align: left;
+
 }
 
-tr:nth-child(odd) {
-  background-color: #D6EEEE;
+
+
+tr:nth-child(even) {
+  background-color: #8881;
 }
 
 
