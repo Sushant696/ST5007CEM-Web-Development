@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>web | Development</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/HTML/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.4/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="">
+    <div class=" px-6 navbar p-1">
+      <a href="index.html" style="text-decoration: none;">
+        <img src="image.png" alt="logo" style="width:130px;height: 70px; ">
+      </a>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10ZM12 14.5c-5.01 0-9.09 3.36-9.09 7.5 0 .28.22.5.5.5h17.18c.28 0 .5-.22.5-.5 0-4.14-4.08-7.5-9.09-7.5Z"
+            fill="#2ccce4"></path>
+        </svg>
+
+      </div>
+    </div>
+
+    <div class="border-r-2 white border-gray-300  flex flex-col items-center text-left p-10 fixed top-18 left-0 h-full">
+      <div class="flex flex-col gap-96">
+        <div class="flex flex-col gap-4 space-y-5 text-xl">
+          <h1 class=" mt-2">Dashboard</h1>
+          <h1 class="">
+            <a href="calculator.html">Calculator</a>
+          </h1>
+          <h1 class="">
+            Enquiries
+          </h1>
+          <h1 class="">
+            <a href="courseTable.html">
+              Courses
+            </a>
+          </h1>
+          <h1 class="">
+            <a href="contact.html">
+              Contact
+            </a>
+          </h1>
+        </div>
+        <div class="space-y-5 text-xl">
+          <h1 class="">Setting</h1>
+          <h1 class="">Logout</h1>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full main-content" style="margin-left: 880px; margin-top: 20px;">
+
+    <form action="" class="form">
+      <div class="margin">
+        <label class="label">username*</label>
+        <input type="text" class="input" placeholder="username" id="uname" name="uname" />
+      </div>
+      <div class="margin">
+        <label class="label">Contact No*</label>
+        <input class="input" type="text" placeholder="contact" id="contact" name="contact" />
+      </div>
+      <div class="margin">
+        <label class="label">Email*</label>
+        <input type="email" placeholder="email" class="input" id="email" name="email" />
+      </div>
+      <div class="margin">
+        <label class="label">Select a role*</label>
+        <select name="department" class="input" id="department">
+          <option value="volvo">Admin</option>
+          <option value="saab">Citizen</option>
+          <option value="mercedes">Member</option>
+        </select>
+      </div>
+      <div class="margin">
+        <label for="password" class="label">Password*</label>
+        <input type="password" placeholder="*******" class="input" name="password">
+      </div>
+      <div class="margin">
+        <label for="password" class="label">Confirm Password*</label>
+        <input type="password" placeholder="*******" class="input" name="password">
+      </div>
+      <div class="checkboxContainer flex gap-4">
+        <label for="checkbox ">Terms and condition</label>
+        <input type="checkbox">
+      </div>
+      <button type="submit" class="button-10" style="margin-top: 10px; width:50%;">Submit</button>
+    </form>
+
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

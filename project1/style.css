@@ -1,0 +1,138 @@
+.menuitem {
+  background: #48483A;
+  padding: 14px 45px;
+  border-radius: 10px;
+  text-align: center;
+  color: #f8f8f8;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.navbar {
+  background: #202A25;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.main-content {
+
+  margin-left: 230px;
+  margin-top: 0px;
+}
+
+
+.button-10 {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, blinkmacsystemfont, 'roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
+}
+
+.checkboxContainer {
+  text-align: left;
+  padding: 2px;
+}
+
+.white {
+  background: #f8f8f8;
+  border: 1px solid black;
+}
+
+.table {
+  margin: 20px 0px;
+  border: 1px solid #9997;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  padding: 20px 30px;
+  border: 1px solid #ddd;
+  text-align: left;
+
+}
+
+tr:nth-child(even) {
+  background-color: #8881;
+}
+
+
+
+.flexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  padding: 20px;
+
+}
+
+.box {
+  padding: 20px 30px;
+  margin: 10px;
+  border: 1px solid gold;
+  flex-shrink: 1;
+  background: #0908;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+@media screen and (max-width:768px) {
+  .flexContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+@media screen and (min-width:2180px) {
+  .flexContainer {
+    display: flex;
+    border : 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+  }
+}
