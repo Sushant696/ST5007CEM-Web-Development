@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Haris F. Watson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="nav-container">
+    <h1 class="text-2xl font-bold">Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a class="underline border-b-2 border-red-800" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="button-10">Get Free Consultant</button>
+  </div>
+
+  <!-- Main Section -->
+  <div class="main-container border">
+
+    <form action="" class="form">
+      <div class="margin">
+        <label class="label">username*</label>
+        <input type="text" class="input" placeholder="username" id="uname" name="uname" />
+      </div>
+      <div class="margin">
+        <label class="label">Contact No*</label>
+        <input class="input" type="text" placeholder="contact" id="contact" name="contact" />
+      </div>
+      <div class="margin">
+        <label class="label">Email*</label>
+        <input type="email" placeholder="email" class="input" id="email" name="email" />
+      </div>
+      <div class="margin">
+        <label class="label">Select a role*</label>
+        <select name="department" class="input" id="department">
+          <option value="volvo">Admin</option>
+          <option value="saab">Citizen</option>
+          <option value="mercedes">Member</option>
+        </select>
+      </div>
+      <div class="margin">
+        <label for="password" class="label">Password*</label>
+        <input type="password" placeholder="*******" class="input" name="password">
+      </div>
+      <div class="margin">
+        <label for="password" class="label">Confirm Password*</label>
+        <input type="password" placeholder="*******" class="input" name="password">
+      </div>
+      <div class="checkboxContainer flex gap-4">
+        <label for="checkbox ">Terms and condition</label>
+        <input type="checkbox">
+      </div>
+      <button type="submit" class="button-10" style="margin-top: 10px; width:50%;">Submit</button>
+    </form>
+
+
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+ body {
+   font-family: 'Poppins', sans-serif;
+ }
+
+ .navul {
+   display: flex;
+   gap: 10px;
+   text-decoration: none;
+   list-style: none;
+ }
+
+ .navbar {
+   display: flex;
+   justify-content: flex-end;
+ }
+
+ .navul a {
+   text-decoration: none;
+   font-size: 20px;
+ }
+
+ .nav-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 40px;
+   background: #fff;
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+   gap: 20px;
+ }
+
+ .nav-container ul {
+   list-style: none;
+   display: flex;
+   gap: 20px;
+ }
+
+ .nav-container a {
+   text-decoration: none;
+   font-size: 16px;
+   color: #333;
+   font-weight: 500;
+ }
+
+ .main-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: calc(100vh - 100px);
+   padding: 40px;
+   gap: 60px;
+   background: #f5f5f5;
+   box-sizing: border-box;
+   width: 100%;
+ }
+
+ .main-container .text-content {
+   max-width: 500px;
+ }
+
+ .main-container h1 {
+   font-size: 3rem;
+   color: #333;
+   line-height: 1.2;
+ }
+
+ .main-container p {
+   color: #666;
+   line-height: 1.6;
+   margin-top: 20px;
+ }
+
+ .buttons-container {
+   margin-top: 30px;
+   display: flex;
+   gap: 20px;
+ }
+
+ .image-container img {
+   border-radius: 8px;
+   min-width: 780px;
+ }
+
+ .image-container img {
+   width: 100%;
+   height: auto;
+   object-fit: contain;
+   border-radius: 8px;
+ }
+
+ .button-10 {
+   padding: 10px 20px;
+   background: #f75b5b;
+   color: #fff;
+   border: none;
+   border-radius: 6px;
+   font-weight: 600;
+   cursor: pointer;
+ }
+
+ .button-11 {
+   padding: 10px 20px;
+   background: #fff;
+   color: #333;
+   border: 2px solid #f75b5b;
+   border-radius: 6px;
+   font-weight: 600;
+   cursor: pointer;
+ }
+
+
+ .input {
+   width: 100%;
+   padding: 10px 10px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   border-radius: 4px;
+   box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
+ }
+
+ .checkboxContainer {
+   text-align: left;
+   padding: 2px;
+ }
