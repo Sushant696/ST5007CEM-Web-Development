@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome | Javascript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="board" class="w-96 h-96 border border-blue-700"></div>
+
+
+  <div class="form-container">
+    <h2>Enter Marks</h2>
+    <form id="form">
+      <div class="form-group">
+        <label for="maths">Mathematics:</label>
+        <input type="number" id="maths" name="maths" placeholder="Enter marks for Mathematics">
+      </div>
+      <div class="form-group">
+        <label for="science">Science:</label>
+        <input type="number" id="science" name="science" placeholder="Enter marks for Science">
+      </div>
+      <div class="form-group">
+        <label for="english">English:</label>
+        <input type="number" id="english" name="english" placeholder="Enter marks for English">
+      </div>
+      <div class="form-group">
+        <label for="history">History:</label>
+        <input type="number" id="history" name="history" placeholder="Enter marks for History">
+      </div>
+      <div class="form-group">
+        <button type="button" id="calculateButton">Submit</button>
+      </div>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

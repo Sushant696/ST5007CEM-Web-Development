@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome | Javascript</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .highlight {
+    background: #009;
+  }
+</style>
+
+<body>
+  <h1 class="text-4xl py-4" id="title">welcome to Dom Manipulation</h1>
+  <p class="py-4" id="paragraph">A paragraph for manipulation</p>
+  <div class="">
+    <button id="highlight" class="button">Highlight</button>
+    <button id="additem" class="button">Add list item</button>
+    <button id="remove" class="button  bg-red-500">Remove list item</button>
+    <button id="toggle" class="button ">Toggle Highlight class</button>
+  </div>
+  <h1>List items</h1>
+  <ul id="list">
+
+  </ul>
+  <h1 id="another"></h1>
+  <script src="dom.js"></script>
+</body>
+
+</html>
